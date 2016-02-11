@@ -206,13 +206,12 @@ PRODUCT_PACKAGES += \
     libmmcamera_interface2 \
     libmmjpeg_interface \
     libqomx_core \
-    libmm-qcamera \
     mm-qcamera-app \
     Snap
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.camera.cpp.duplication=false \
-    media.camera.ts.monotonic=0
+    persist.camera.cpp.duplication=false
+
 # GPS
 PRODUCT_PACKAGES += \
     libgps.utils \
