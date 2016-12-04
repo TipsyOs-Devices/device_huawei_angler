@@ -206,6 +206,7 @@ PRODUCT_PACKAGES += \
     libmmcamera_interface2 \
     libmmjpeg_interface \
     libqomx_core \
+    libmm-qcamera \
     mm-qcamera-app \
     Snap
 
