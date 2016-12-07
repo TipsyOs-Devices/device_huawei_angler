@@ -24,14 +24,14 @@ PRODUCT_RELEASE_NAME := angler
 TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
 
-# Inherit some common Slim stuff.
-$(call inherit-product, vendor/slim/config/common_full_phone.mk)
+# Inherit some common tipsy stuff.
+$(call inherit-product, vendor/tipsy/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/huawei/angler/aosp_angler.mk)
 
 PRODUCT_DEVICE := angler
-PRODUCT_NAME := slim_angler
+PRODUCT_NAME := tipsy_angler
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Nexus 6P
 PRODUCT_MANUFACTURER := Huawei

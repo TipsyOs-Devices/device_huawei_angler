@@ -1,0 +1,12 @@
+[
+ {
+   "repository":  "SlimRoms/kernel_huawei_angler",
+   "target_path": "kernel/huawei/angler",
+   "branch":      "ng7.1"
+ },
+ { "repository":  "TheLoonyBin/proprietary_vendor_huawei", 
+   "target_path": "vendor/huawei", 
+   "remote":      "github", 
+   "branch":      "ng7.1"
+ }
+]
