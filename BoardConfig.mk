@@ -153,6 +153,8 @@ BOARD_VENDOR_QCOM_LOC_PDK_FEATURE_SET := true
 #NFC
 NXP_CHIP_TYPE := 2
 
+export _JAVA_OPTIONS="-Xmx4g"
+
 # Testing related defines
 BOARD_PERFSETUP_SCRIPT := platform_testing/scripts/perf-setup/angler-setup.sh
 
