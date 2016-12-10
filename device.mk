@@ -479,7 +479,7 @@ drm.service.enabled=true
 
 # Enable sdcardfs
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sys.sdcardfs=true
+    ro.sys.sdcardfs=false
 
 # Enable sdcardfs
 PRODUCT_PROPERTY_OVERRIDES += \
