@@ -207,8 +207,8 @@ PRODUCT_PACKAGES += \
     Snap
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.camera.cpp.duplication=false
-
+    persist.camera.cpp.duplication=false \
+    media.camera.ts.monotonic=0
 # GPS
 PRODUCT_PACKAGES += \
     libgps.utils \
