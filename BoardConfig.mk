@@ -162,4 +162,7 @@ BOARD_PERFSETUP_SCRIPT := platform_testing/scripts/perf-setup/angler-setup.sh
 
 USE_CLANG_PLATFORM_BUILD := true
 
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 -include vendor/huawei/angler/BoardConfigVendor.mk
