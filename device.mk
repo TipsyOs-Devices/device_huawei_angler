@@ -521,6 +521,9 @@ ifeq (true,$(SANITIZE_LITE))
   SANITIZE_ARCH := 32
 endif
 
+# Root Method
+DEFAULT_ROOT_METHOD := rootless
+
 # b/29995499
 $(call add-product-sanitizer-module-config,cameraserver,never)
 $(call add-product-sanitizer-module-config,mm-qcamera-daemon,never)
