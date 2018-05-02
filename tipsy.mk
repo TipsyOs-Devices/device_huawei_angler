@@ -3,13 +3,13 @@ TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
 
 # Inherit some common stuff.
-$(call inherit-product, vendor/gzosp/config/common.mk)
+$(call inherit-product, vendor/tipsy/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/huawei/angler/aosp_angler.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := gzosp_angler
+PRODUCT_NAME := tipsy_angler
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 6P
 
